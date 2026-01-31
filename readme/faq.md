@@ -82,6 +82,53 @@ For further information go [here](https://discourse.joplinapp.org/t/restoring-de
 
 You may use a special keyboard such as [Multiling O Keyboard](https://play.google.com/store/apps/details?id=kl.ime.oh&hl=en), which has shortcuts to create Markdown tags. [More information in this post](https://discourse.joplinapp.org/t/android-create-new-list-item-with-enter/585/2?u=laurent).
 
+## How do I create Workflowy-style outlines or nested lists in notes?
+
+Yes, Joplin supports creating nested, hierarchical lists (outlines) within notes using standard Markdown syntax. Here's how to create them:
+
+### Creating nested bullet lists
+
+To create a nested bullet list, indent sub-items with 4 spaces or a tab:
+
+```markdown
+- Main item 1
+    - Sub-item 1a
+    - Sub-item 1b
+        - Sub-sub-item 1b-i
+- Main item 2
+    - Sub-item 2a
+```
+
+This renders as:
+
+- Main item 1
+    - Sub-item 1a
+    - Sub-item 1b
+        - Sub-sub-item 1b-i
+- Main item 2
+    - Sub-item 2a
+
+### Creating nested numbered lists
+
+The same principle works for numbered lists:
+
+```markdown
+1. First main point
+    1. First sub-point
+    2. Second sub-point
+2. Second main point
+    1. Another sub-point
+```
+
+### Tips for working with outlines
+
+- **In the Markdown editor**: Press Tab or add 4 spaces at the start of a line to indent an item and create a sub-level
+- **In the Rich Text editor**: Use the Tab key to indent list items and Shift+Tab to un-indent
+- You can nest lists multiple levels deep for complex outlines
+- You can mix bullet points and checkboxes in the same outline using `- [ ]` for checkboxes
+
+For more information about Markdown formatting in Joplin, see the [Markdown guide](https://joplinapp.org/help/apps/markdown).
+
 ## The initial sync is very slow, how can I speed it up?
 
 Whenever importing a large number of notes, for example from Evernote, it may take a very long time for the first sync to complete. There are various techniques to speed this up (if you don't want to simply wait for the sync to complete), which are outlined in [this post](https://discourse.joplinapp.org/t/workaround-for-slow-initial-bulk-sync-after-evernote-import/746?u=laurent).

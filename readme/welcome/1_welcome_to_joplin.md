@@ -40,6 +40,15 @@ Or numbered lists:
 2. rinse
 3. repeat
 
+You can also create nested lists (outlines) by indenting with 4 spaces or a tab:
+
+* Fruits
+    * apples
+    * oranges
+* Vegetables
+    * carrots
+    * broccoli
+
 This is a [link](https://joplinapp.org) and, finally, below is a horizontal rule:
 
 * * *

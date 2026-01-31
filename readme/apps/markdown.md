@@ -60,6 +60,34 @@ Which is rendered as:
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 
+### Nested lists and outlines
+
+You can create nested (hierarchical) lists by indenting sub-items with 4 spaces or a tab. This is useful for creating Workflowy-style outlines, hierarchical notes, or complex structured content.
+
+**Nested bullet list example:**
+
+	- Main category
+	    - Subcategory A
+	        - Detail A1
+	        - Detail A2
+	    - Subcategory B
+	- Another main category
+
+**Nested numbered list example:**
+
+	1. First main point
+	    1. Supporting detail
+	    2. Another detail
+	        1. Even deeper detail
+	2. Second main point
+
+**Tips for working with nested lists:**
+
+- Press Tab or add 4 spaces at the beginning of a line to create a nested level
+- In the Rich Text editor, use Tab to indent and Shift+Tab to un-indent
+- You can nest lists multiple levels deep for complex outlines
+- You can combine bullet lists with checkboxes (`- [ ]` syntax) to create nested task lists
+
 ## Joplin Extras
 
 Besides the standard Markdown syntax, Joplin supports several additional features.
