@@ -17,7 +17,7 @@ When planning a trip or holiday, Joplin helps you keep track of all essential de
 
 ## 2\. Create Lists for Tasks or Purchases
 
-Whether it's for daily tasks like shopping or long-term goals, Joplin helps you create checklists, bullet points, and numbered lists to organise and prioritise effectively.
+Whether it's for daily tasks like shopping or long-term goals, Joplin helps you create checklists, bullet points, and numbered lists to organise and prioritise effectively. Joplin supports deeply nested lists, making it ideal for creating hierarchical outlines similar to tools like Workflowy. You can break down complex projects into multiple levels of sub-tasks, organize thoughts in a structured way, and create detailed plans with nested bullet or numbered lists.
 
 <img src="https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/use_cases/personal_organisation/make_list.png" style="max-width: 500px;" />
 

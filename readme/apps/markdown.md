@@ -186,6 +186,47 @@ Which would turn into:
 
 The checkboxes can then be ticked in the mobile and desktop applications.
 
+### Nested lists and outlining
+
+Joplin supports creating deeply nested lists, making it suitable for outlining and hierarchical note-taking similar to tools like Workflowy. You can create nested bullet lists or numbered lists by indenting items with spaces or tabs.
+
+To create a nested list, indent sub-items with 4 spaces or a tab:
+
+	- Main topic
+	    - Subtopic 1
+	        - Detail A
+	        - Detail B
+	    - Subtopic 2
+	        - Detail C
+	- Another main topic
+	    - More details
+
+This also works with numbered lists:
+
+	1. Introduction
+	2. Main topic
+	    1. First sub-topic
+	        1. Detailed point
+	        2. Another point
+	    2. Second sub-topic
+	3. Conclusion
+
+You can mix bullet and numbered lists:
+
+	1. Project Planning
+	    - Research phase
+	        - Literature review
+	        - Interviews
+	    - Implementation phase
+	        - Development
+	        - Testing
+
+This makes Joplin excellent for:
+- Creating structured outlines for articles, papers, or presentations
+- Breaking down complex projects into sub-tasks
+- Organizing thoughts hierarchically
+- Mind mapping and brainstorming
+
 ### HTML support
 
 It is generally recommended to enter the notes as Markdown as it makes the notes easier to edit. However for cases where certain features aren't supported (such as strikethrough or to highlight text), you can also use HTML code directly. For example this would be a valid note:
