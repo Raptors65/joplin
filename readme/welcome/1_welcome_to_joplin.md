@@ -46,6 +46,20 @@ This is a [link](https://joplinapp.org) and, finally, below is a horizontal rule
 
 A lot more is possible including adding code samples, math formulae or checkbox lists - see the [Markdown documentation](https://joplinapp.org/help/apps/markdown) for more information.
 
+### Creating Outlines
+
+Joplin is great for creating hierarchical outlines by nesting lists. Simply indent sub-items to create multi-level structures:
+
+```markdown
+- Main idea
+    - Supporting point
+        - Detail
+    - Another point
+- Next main idea
+```
+
+This makes Joplin suitable for brainstorming, project planning, and organizing complex information. See the [Markdown guide's outlining section](https://joplinapp.org/help/apps/markdown/#creating-outlines-in-joplin) for more tips.
+
 ## Organising your notes
 
 ### With notebooks

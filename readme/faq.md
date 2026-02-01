@@ -157,6 +157,19 @@ Additionally the Windows Task Manager can be used to verify whether Joplin is st
 
 Notebooks and notes on iOS are not backed up when [backing up to your Mac](https://support.apple.com/guide/mac-help/back-up-and-restore-your-device-mchla3c8ed03/mac).
 
+## Does Joplin support outlining like Workflowy?
+
+Yes! Joplin supports creating hierarchical outlines using nested Markdown lists. You can create multi-level bullet points, numbered lists, and checkboxes with unlimited nesting. While Joplin doesn't have collapsible sections within the editor like dedicated outlining tools, it provides powerful outlining capabilities combined with full note-taking features.
+
+Key features for outlining:
+- Unlimited nesting with Tab/Shift+Tab
+- Mix bullets, numbers, and checkboxes
+- Full Markdown support (links, formatting, images)
+- Powerful search across all outlines
+- Sync across devices with encryption
+
+For more information, see the [outlining guide](https://github.com/laurent22/joplin/blob/dev/readme/apps/use_cases/outlining.md) and the [Markdown documentation](https://github.com/laurent22/joplin/blob/dev/readme/apps/markdown.md#creating-outlines-in-joplin).
+
 ## Why is it named Joplin?
 
 The application is named in honour of composer and pianist [Scott Joplin](https://en.wikipedia.org/wiki/Scott_Joplin), whose music I frequently listen to. His name is also easy to remember and type, making it a fitting choice.

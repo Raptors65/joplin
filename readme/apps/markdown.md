@@ -60,6 +60,105 @@ Which is rendered as:
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 
+## Creating Outlines in Joplin
+
+Joplin supports creating hierarchical outlines using nested lists, making it suitable for organizing thoughts, planning projects, and creating structured content similar to dedicated outlining tools.
+
+### Basic Outlining
+
+You can create multi-level outlines using nested bullet lists or numbered lists:
+
+```markdown
+- Main Topic
+    - Subtopic 1
+        - Detail A
+        - Detail B
+    - Subtopic 2
+        - Detail C
+            - Sub-detail 1
+            - Sub-detail 2
+- Another Main Topic
+    - Supporting point
+```
+
+Which renders as:
+
+- Main Topic
+    - Subtopic 1
+        - Detail A
+        - Detail B
+    - Subtopic 2
+        - Detail C
+            - Sub-detail 1
+            - Sub-detail 2
+- Another Main Topic
+    - Supporting point
+
+### Mixing List Types
+
+You can combine numbered and bulleted lists for different outline styles:
+
+```markdown
+1. Project Phase 1
+    - Research
+    - Planning
+        - Define scope
+        - Set timeline
+2. Project Phase 2
+    - Implementation
+    - Testing
+```
+
+### Outlining with Headings
+
+For longer documents, combine headings with nested lists:
+
+```markdown
+# Project Overview
+
+## Goals
+- Primary goal
+    - Success metric 1
+    - Success metric 2
+- Secondary goal
+
+## Timeline
+1. Q1 Activities
+    - Task A
+    - Task B
+2. Q2 Activities
+    - Task C
+```
+
+### Task-Based Outlines
+
+Use checkboxes for actionable outlines:
+
+```markdown
+- [ ] Research phase
+    - [x] Literature review
+    - [x] Market analysis
+    - [ ] Competitor research
+- [ ] Development phase
+    - [ ] Design mockups
+    - [ ] Build prototype
+```
+
+### Tips for Effective Outlining
+
+- **Use indentation**: Press Tab to indent and create sub-items, Shift+Tab to outdent
+- **Stay organized**: Use notebooks for different projects or areas of your life
+- **Use tags**: Tag related outlines for easy cross-referencing
+- **Link notes**: Create links between related outlines using [note links](#links-to-other-notes)
+- **Search across outlines**: Use Joplin's full-text search to find items across all your outlines
+
+### Note on Collapsible Sections
+
+Unlike some dedicated outlining tools, Joplin does not currently support collapsible sections within note content in the editor. However, you can:
+- Use multiple notes for different sections of large outlines
+- Collapse and expand notebooks in the sidebar for high-level organization
+- Use the table of contents (TOC) plugin with headings for navigation in long notes
+
 ## Joplin Extras
 
 Besides the standard Markdown syntax, Joplin supports several additional features.
