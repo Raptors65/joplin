@@ -47,8 +47,6 @@ Vous pouvez également créer des listes de cases à cocher. Ces cases peuvent �
 - [ ] Œufs
 - [x] Bière
 
-
-Joplin prend en charge les listes imbriquées, vous permettant de créer des plans hiérarchiques en indentant les éléments avec Tab ou 4 espaces. C'est idéal pour organiser des projets complexes, des notes structurées et des plans détaillés avec plusieurs niveaux d'information.
 Des expressions mathématiques peuvent être ajoutées à l'aide de la [notation KaTeX](https://khan.github.io/KaTeX/) :
 
 $$

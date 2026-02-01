@@ -20,6 +20,7 @@ This is a quick summary of the Markdown syntax.
 | **Blockquotes** | <pre>> Kent.<br/>> Where's the king?<br/><br/>> Gent.<br/>> Contending with the<br/>> fretful elements</pre> | <blockquote>Kent.<br/>Where's the king?<br/><br/>Gent.<br/>Contending with<br/>the fretful elements</blockquote>
 | **List** | <pre>- Milk<br/>- Eggs<br/>- Beers<br/>    - Desperados<br/>    - Heineken<br/>- Ham</pre> | <ul><li>Milk</li><li>Eggs</li><li>Beers<ul><li>Desperados</li><li>Heineken</li></ul></li><li>Ham</li></ul>
 | **Ordered list** | <pre>1. Introduction<br/>2. Main topic<br/>    1. First sub-topic<br/>    2. Second sub-topic<br/>3. Conclusion</pre> | <ol><li>Introduction</li><li>Main topic<ol><li>First sub-topic</li><li>Second sub-topic</li></ol></li><li>Conclusion</li></ol>
+| **Note** | Nested lists are created by indenting sub-items with 4 spaces or a Tab. You can nest lists as deeply as needed to create hierarchical outlines. [See more details below](#creating-nested-outlines). |
 | **Inline code** | <pre>This is \`someJavaScript()\`</pre> | This is `someJavaScript()`
 | **Code block** | <pre>Here's some JavaScript code:<br><br>\`\`\`<br>function hello() {<br>    alert('hello');<br>}<br>\`\`\`<br><br>Language is normally auto-detected,<br>but it can also be specified:<br><br>\`\`\`sql<br>SELECT * FROM users;<br>DELETE FROM sessions;<br>\`\`\`</pre> | Here's some JavaScript code:<br><br><pre>function hello() {<br>&nbsp;&nbsp;&nbsp;&nbsp;alert('hello');<br>}</pre><br>Language is normally auto-detected, but it can also be specified:<br><br><pre>SELECT * FROM users;<br>DELETE FROM sessions;</pre>
 | **Unformatted text** | <pre>Indent with a tab or 4 spaces<br>for unformatted text.<br/><br/>    This text will not be formatted:<br><br>    Robert'); DROP TABLE students;--</pre> | Indent with a tab or 4 spaces for unformatted text.<br><br><pre>This text will not be formatted:<br><br>Robert'); DROP TABLE students;--</pre>
@@ -59,6 +60,57 @@ Which is rendered as:
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
+
+### Creating Nested Outlines
+
+Joplin supports nested lists which allow you to create hierarchical outlines with multiple levels of indentation. This is useful for organizing complex information, creating structured notes, and building detailed project plans.
+
+To create nested lists:
+
+1. Start with a top-level list item using `-` or `*` for unordered lists, or `1.`, `2.`, etc. for ordered lists
+2. To create a sub-item, indent the next line with 4 spaces or press the Tab key
+3. You can continue nesting to any depth by adding another 4 spaces (or Tab) for each level
+
+For example, this unordered nested outline:
+
+```
+- Project Planning
+    - Research Phase
+        - Literature review
+        - Competitor analysis
+    - Development Phase
+        - Design mockups
+        - Implementation
+            - Frontend
+            - Backend
+    - Testing Phase
+```
+
+Will be rendered as:
+
+- Project Planning
+    - Research Phase
+        - Literature review
+        - Competitor analysis
+    - Development Phase
+        - Design mockups
+        - Implementation
+            - Frontend
+            - Backend
+    - Testing Phase
+
+You can also create ordered nested lists:
+
+```
+1. Main Topic
+    1. First subtopic
+        1. Detail A
+        2. Detail B
+    2. Second subtopic
+2. Another Main Topic
+```
+
+This feature allows you to build complex hierarchical structures for organizing your thoughts, creating detailed plans, or managing structured information within your notes.
 
 ## Joplin Extras
 

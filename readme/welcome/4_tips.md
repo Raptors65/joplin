@@ -48,6 +48,8 @@ You can also create lists of checkboxes. These checkboxes can be ticked directly
 - [ ] Eggs
 - [x] Beer
 
+Joplin supports nested lists, allowing you to create hierarchical outlines by indenting items with Tab or 4 spaces. This is great for organizing complex projects, structured notes, and detailed plans with multiple levels of information.
+
 Math expressions can be added using the [KaTeX notation](https://khan.github.io/KaTeX/):
 
 $$
