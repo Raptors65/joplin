@@ -78,6 +78,42 @@ If you do not know the `NOTE_ID` then you can find this within the Joplin sqlite
 You should first take a copy of the database to avoid making any accidental changes in the live one.
 For further information go [here](https://discourse.joplinapp.org/t/restoring-deleted-notes/21304).
 
+## How can I create outlines and nested lists like in Workflowy?
+
+Joplin fully supports creating hierarchical outlines and nested lists within notes using standard Markdown syntax. To create nested/sub-lists, simply indent list items with 4 spaces or a tab character.
+
+**Example for bullet lists:**
+
+```
+- Top level item
+    - Sub-item 1
+    - Sub-item 2
+        - Sub-sub-item
+- Another top level item
+```
+
+**Example for numbered lists:**
+
+```
+1. First item
+    1. Sub-item
+    2. Another sub-item
+2. Second item
+```
+
+**Example for checkboxes (task lists):**
+
+```
+- [ ] Main task
+    - [ ] Subtask 1
+    - [x] Subtask 2 (completed)
+- [ ] Another main task
+```
+
+You can nest lists to any depth by adding more indentation (4 spaces per level). Both the Markdown editor and Rich Text editor support this functionality. In the Markdown editor, you can use the Tab key to indent list items and Shift+Tab to unindent them.
+
+For more details, see the [Markdown Guide](https://github.com/laurent22/joplin/blob/dev/readme/apps/markdown.md).
+
 ## How can I easily enter Markdown tags in Android?
 
 You may use a special keyboard such as [Multiling O Keyboard](https://play.google.com/store/apps/details?id=kl.ime.oh&hl=en), which has shortcuts to create Markdown tags. [More information in this post](https://discourse.joplinapp.org/t/android-create-new-list-item-with-enter/585/2?u=laurent).

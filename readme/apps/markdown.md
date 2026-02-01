@@ -186,6 +186,38 @@ Which would turn into:
 
 The checkboxes can then be ticked in the mobile and desktop applications.
 
+### Nested lists and outlines
+
+Joplin supports creating hierarchical outlines and deeply nested lists, similar to outliner applications like Workflowy. You can nest any type of list (bulleted, numbered, or checkboxes) to any depth by indenting with 4 spaces or a tab character.
+
+**Creating nested bullet lists:**
+
+	- Top level item
+	    - Nested item
+	    - Another nested item
+	        - Deeply nested item
+	- Another top level item
+
+**Creating nested numbered lists:**
+
+	1. First section
+	    1. Subsection A
+	    2. Subsection B
+	        1. Detail 1
+	        2. Detail 2
+	2. Second section
+
+**Creating nested task lists (checkboxes):**
+
+	- [ ] Project phase 1
+	    - [x] Task 1.1 (completed)
+	    - [ ] Task 1.2
+	        - [ ] Subtask 1.2.1
+	        - [ ] Subtask 1.2.2
+	- [ ] Project phase 2
+
+**Tip:** In the Markdown editor, you can use the Tab key to indent a list item (making it a sub-item) and Shift+Tab to unindent it (promoting it to a higher level). This makes it easy to quickly organize your thoughts in an outline structure.
+
 ### HTML support
 
 It is generally recommended to enter the notes as Markdown as it makes the notes easier to edit. However for cases where certain features aren't supported (such as strikethrough or to highlight text), you can also use HTML code directly. For example this would be a valid note:
