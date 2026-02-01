@@ -157,9 +157,9 @@ Additionally the Windows Task Manager can be used to verify whether Joplin is st
 
 Notebooks and notes on iOS are not backed up when [backing up to your Mac](https://support.apple.com/guide/mac-help/back-up-and-restore-your-device-mchla3c8ed03/mac).
 
-## Does Joplin support outlining like Workflowy?
+## Does Joplin support outlining?
 
-Yes! Joplin supports creating hierarchical outlines using nested Markdown lists. You can create multi-level bullet points, numbered lists, and checkboxes with unlimited nesting. While Joplin doesn't have collapsible sections within the editor like dedicated outlining tools, it provides powerful outlining capabilities combined with full note-taking features.
+Yes! Joplin supports creating hierarchical outlines using nested Markdown lists. You can create multi-level bullet points, numbered lists, and checkboxes with unlimited nesting. Joplin provides powerful outlining capabilities combined with full note-taking features.
 
 Key features for outlining:
 - Unlimited nesting with Tab/Shift+Tab

@@ -1,6 +1,6 @@
 # Joplin for Outlining and Structured Thinking
 
-Joplin's support for nested Markdown lists makes it an excellent tool for creating outlines, organizing thoughts, and structuring complex information. While not a dedicated outlining tool like Workflowy or Dynalist, Joplin provides powerful outlining capabilities combined with the flexibility of a full-featured note-taking application.
+Joplin's support for nested Markdown lists makes it an excellent tool for creating outlines, organizing thoughts, and structuring complex information. Joplin provides powerful outlining capabilities combined with the flexibility of a full-featured note-taking application.
 
 ## What You Can Do
 
@@ -309,7 +309,7 @@ Speed up your outlining workflow with these shortcuts:
 
 ## Tips for Transitioning from Other Outlining Tools
 
-If you're coming from Workflowy, Dynalist, or similar tools:
+If you're coming from other outlining tools:
 
 1. **Import your data**: Export from your previous tool and import into Joplin
    - Most tools support Markdown export
