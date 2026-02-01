@@ -46,6 +46,8 @@ This is a [link](https://joplinapp.org) and, finally, below is a horizontal rule
 
 A lot more is possible including adding code samples, math formulae or checkbox lists - see the [Markdown documentation](https://joplinapp.org/help/apps/markdown) for more information.
 
+You can also create hierarchical outlines with nested lists for project planning and structured note-taking - see the [Outlining Guide](https://joplinapp.org/help/apps/outlining) for detailed instructions and examples.
+
 ## Organising your notes
 
 ### With notebooks

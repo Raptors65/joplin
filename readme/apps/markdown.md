@@ -10,6 +10,8 @@ Joplin follows the [CommonMark](https://spec.commonmark.org/) specification, wit
 
 This is a quick summary of the Markdown syntax.
 
+**For detailed information about creating hierarchical outlines and nested lists, see the [Outlining Guide](https://github.com/laurent22/joplin/blob/dev/readme/apps/outlining.md).**
+
 |     | Markdown | Rendered Output
 | --- | --- | ---
 | **Heading 1** | <pre># Heading 1</pre> | <h1>Heading 1</h1>
