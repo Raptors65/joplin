@@ -157,6 +157,56 @@ Additionally the Windows Task Manager can be used to verify whether Joplin is st
 
 Notebooks and notes on iOS are not backed up when [backing up to your Mac](https://support.apple.com/guide/mac-help/back-up-and-restore-your-device-mchla3c8ed03/mac).
 
+## Can I create Workflowy-style outlines or nested bullet lists in Joplin?
+
+Yes! Joplin fully supports creating nested (indented) bullet lists and numbered lists inside notes using standard Markdown syntax. You can create multi-level outlines similar to Workflowy.
+
+### How to create nested lists:
+
+**Using the Markdown editor:**
+
+Simply indent sub-items with spaces or tabs (typically 4 spaces or 1 tab per level):
+
+```markdown
+- Main topic
+    - Sub-topic
+        - Sub-sub-topic
+    - Another sub-topic
+- Another main topic
+```
+
+This will render as:
+
+- Main topic
+    - Sub-topic
+        - Sub-sub-topic
+    - Another sub-topic
+- Another main topic
+
+**Using the Rich Text editor:**
+
+1. Create a list item
+2. Press Tab to indent (nest) the item, or Shift+Tab to outdent (unnest)
+3. Continue adding items and using Tab/Shift+Tab to adjust nesting levels
+
+**Keyboard shortcuts in both editors:**
+
+- **Tab**: Indent the current list item (make it a sub-item)
+- **Shift+Tab**: Outdent the current list item (move it up one level)
+- **Enter**: Create a new list item at the same level
+
+### Current limitations:
+
+Unlike dedicated outlining tools like Workflowy, Joplin does not currently support:
+
+- Collapsing/expanding (folding) nested list items
+- Zooming into a specific bullet point to focus on that section
+- Hoisting (making a sub-item temporarily appear as the top level)
+
+However, Joplin's nested lists work well for creating structured outlines, hierarchical notes, and multi-level task lists. If you need collapsible sections, consider using the note structure itself (creating multiple linked notes) or look into available plugins that might add this functionality.
+
+For more information about list formatting, see the [Markdown Guide](https://github.com/laurent22/joplin/blob/dev/readme/apps/markdown.md).
+
 ## Why is it named Joplin?
 
 The application is named in honour of composer and pianist [Scott Joplin](https://en.wikipedia.org/wiki/Scott_Joplin), whose music I frequently listen to. His name is also easy to remember and type, making it a fitting choice.

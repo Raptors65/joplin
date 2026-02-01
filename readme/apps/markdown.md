@@ -60,6 +60,53 @@ Which is rendered as:
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 
+### Nested Lists and Outlines
+
+Joplin supports multi-level nested lists, which are useful for creating outlines, hierarchical notes, and structured content. Both bullet lists and numbered lists can be nested to any depth.
+
+To create a nested list, indent sub-items using spaces or tabs. The standard indentation is 4 spaces or 1 tab per nesting level.
+
+**Nested bullet list example:**
+
+	- Project Planning
+	    - Research Phase
+	        - Market analysis
+	        - Competitor research
+	    - Development Phase
+	        - Frontend development
+	        - Backend development
+	    - Testing Phase
+
+**Nested numbered list example:**
+
+	1. Introduction
+	2. Main Content
+	    1. First section
+	        1. Subsection A
+	        2. Subsection B
+	    2. Second section
+	3. Conclusion
+
+**Mixed nested lists:**
+
+You can also mix bullet points and numbered lists:
+
+	1. Major milestone
+	    - Task one
+	    - Task two
+	        - Subtask 2.1
+	        - Subtask 2.2
+	2. Next milestone
+
+**Tips for working with nested lists:**
+
+- In the **Markdown editor**, use Tab to indent and Shift+Tab to outdent list items
+- In the **Rich Text editor**, Tab and Shift+Tab also work to adjust nesting levels
+- Keep consistent indentation (always use 4 spaces or 1 tab per level)
+- You can nest lists to any depth, though very deep nesting may become hard to read
+
+**Note:** Joplin does not currently support collapsing/expanding (folding) nested list items. If you need collapsible sections, consider organizing content across multiple linked notes.
+
 ## Joplin Extras
 
 Besides the standard Markdown syntax, Joplin supports several additional features.
