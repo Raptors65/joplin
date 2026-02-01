@@ -20,6 +20,7 @@ This is a quick summary of the Markdown syntax.
 | **Blockquotes** | <pre>> Kent.<br/>> Where's the king?<br/><br/>> Gent.<br/>> Contending with the<br/>> fretful elements</pre> | <blockquote>Kent.<br/>Where's the king?<br/><br/>Gent.<br/>Contending with<br/>the fretful elements</blockquote>
 | **List** | <pre>- Milk<br/>- Eggs<br/>- Beers<br/>    - Desperados<br/>    - Heineken<br/>- Ham</pre> | <ul><li>Milk</li><li>Eggs</li><li>Beers<ul><li>Desperados</li><li>Heineken</li></ul></li><li>Ham</li></ul>
 | **Ordered list** | <pre>1. Introduction<br/>2. Main topic<br/>    1. First sub-topic<br/>    2. Second sub-topic<br/>3. Conclusion</pre> | <ol><li>Introduction</li><li>Main topic<ol><li>First sub-topic</li><li>Second sub-topic</li></ol></li><li>Conclusion</li></ol>
+| **Checkboxes** | <pre>- [ ] Milk<br/>- [x] Rice<br/>- [ ] Eggs</pre> | <ul><li>☐ Milk</li><li>☑ Rice</li><li>☐ Eggs</li></ul>
 | **Inline code** | <pre>This is \`someJavaScript()\`</pre> | This is `someJavaScript()`
 | **Code block** | <pre>Here's some JavaScript code:<br><br>\`\`\`<br>function hello() {<br>    alert('hello');<br>}<br>\`\`\`<br><br>Language is normally auto-detected,<br>but it can also be specified:<br><br>\`\`\`sql<br>SELECT * FROM users;<br>DELETE FROM sessions;<br>\`\`\`</pre> | Here's some JavaScript code:<br><br><pre>function hello() {<br>&nbsp;&nbsp;&nbsp;&nbsp;alert('hello');<br>}</pre><br>Language is normally auto-detected, but it can also be specified:<br><br><pre>SELECT * FROM users;<br>DELETE FROM sessions;</pre>
 | **Unformatted text** | <pre>Indent with a tab or 4 spaces<br>for unformatted text.<br/><br/>    This text will not be formatted:<br><br>    Robert'); DROP TABLE students;--</pre> | Indent with a tab or 4 spaces for unformatted text.<br><br><pre>This text will not be formatted:<br><br>Robert'); DROP TABLE students;--</pre>
@@ -59,6 +60,64 @@ Which is rendered as:
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
+
+### Creating Outlines and Nested Lists
+
+Joplin supports multi-level nested lists, making it easy to create hierarchical outlines similar to Workflowy or other outlining tools. You can nest lists as deeply as you need by indenting with tabs or spaces.
+
+**Creating nested lists:**
+
+To create a nested list item, simply indent it with a tab or 4 spaces:
+
+```markdown
+- Main topic
+	- Subtopic 1
+		- Detail A
+		- Detail B
+	- Subtopic 2
+- Another main topic
+```
+
+**Editor shortcuts for faster outlining:**
+
+When editing in Joplin, you can use these keyboard shortcuts to quickly organize your outlines:
+
+- **Tab** - Indent a list item (makes it a child of the item above)
+- **Shift+Tab** - Un-indent a list item (moves it up one level)
+- **Enter** - Create a new list item at the same level
+- The editor automatically continues your list formatting (bullets, numbers, or checkboxes)
+
+**Mixing list types:**
+
+You can combine different list types in your outlines:
+
+```markdown
+1. Project Planning
+	- Research phase
+		- [ ] Literature review
+		- [ ] Competitor analysis
+	- Development phase
+		1. Design mockups
+		2. Build prototype
+	- Testing
+```
+
+**Creating collapsible sections:**
+
+For longer outlines, you can create collapsible sections using HTML `<details>` tags:
+
+```html
+<details>
+<summary>Click to expand this section</summary>
+
+- Hidden item 1
+- Hidden item 2
+	- Nested hidden item
+
+</details>
+```
+
+This creates a section that can be collapsed and expanded by clicking on the summary text. Note: This feature works best in the rich text editor.
 
 ## Joplin Extras
 
@@ -171,20 +230,6 @@ K: G
 ![Sheet music and guitar tablature for the Irish reel "Cooley's" in D major](https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/md_plugins/abc/Tablature.png)
 
 Note that even in this case the global options still apply. The per-sheet options simply override the global ones if there's a conflict.
-
-### Checkboxes
-
-Checkboxes can be added like so:
-
-	- [ ] Milk
-	- [x] Rice
-	- [ ] Eggs
-
-Which would turn into:
-
-![Checkbox support in Joplin](https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/Markdown_checkbox.jpg)
-
-The checkboxes can then be ticked in the mobile and desktop applications.
 
 ### HTML support
 

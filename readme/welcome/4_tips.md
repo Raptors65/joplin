@@ -48,6 +48,13 @@ You can also create lists of checkboxes. These checkboxes can be ticked directly
 - [ ] Eggs
 - [x] Beer
 
+You can create nested lists for outlining by indenting with tabs or spaces. Use **Tab** to indent a list item and **Shift+Tab** to un-indent it:
+
+- Main topic
+	- Subtopic with details
+		- Nested detail
+	- Another subtopic
+
 Math expressions can be added using the [KaTeX notation](https://khan.github.io/KaTeX/):
 
 $$
