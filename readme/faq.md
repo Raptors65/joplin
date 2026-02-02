@@ -78,6 +78,17 @@ If you do not know the `NOTE_ID` then you can find this within the Joplin sqlite
 You should first take a copy of the database to avoid making any accidental changes in the live one.
 For further information go [here](https://discourse.joplinapp.org/t/restoring-deleted-notes/21304).
 
+## Can Joplin create outlines like Workflowy?
+
+Yes! Joplin supports creating hierarchical outlines using nested Markdown lists. You can:
+
+- Create nested lists by indenting list items with spaces or tabs
+- Use keyboard shortcuts (Tab/Shift+Tab) to quickly indent/outdent items
+- Mix bullet lists, numbered lists, and checklists in your outlines
+- Use checkboxes for task-oriented outlines
+
+For a complete guide on creating and managing outlines in Joplin, see the [Outlining and Nested Lists](https://github.com/laurent22/joplin/blob/dev/readme/apps/outlining.md) documentation.
+
 ## How can I easily enter Markdown tags in Android?
 
 You may use a special keyboard such as [Multiling O Keyboard](https://play.google.com/store/apps/details?id=kl.ime.oh&hl=en), which has shortcuts to create Markdown tags. [More information in this post](https://discourse.joplinapp.org/t/android-create-new-list-item-with-enter/585/2?u=laurent).
